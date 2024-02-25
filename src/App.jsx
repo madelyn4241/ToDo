@@ -56,7 +56,7 @@ function App() {
                         />
                         <li className={task.completed ? 'taskCompleted' : ''}>{task.text}</li>
                         <button onClick={() => removeTask(key)}>
-                            <img src={"trash.png"} style={{ width: '15px', height: '20px' }} alt="Trash Icon" />
+                            <img src={"public/trash.png"} style={{ width: '15px', height: '20px' }} alt="Trash Icon" />
                         </button>
                     </div>
                 ))}
